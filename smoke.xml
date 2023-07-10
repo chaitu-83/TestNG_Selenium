@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" parallel="tests"  thread-count="3">
+
+
+
+
+    <test name="Smoke_Amazon">
+        <classes>
+            <class name="test_Script.amazon_printlinks"/>
+
+        </classes>
+    </test>
+    <test name="Smoke_Flipkart">
+        <classes>
+            <class name="test_Script.print_All_Links"/>
+
+        </classes>
+    </test>
+    <test name="Smoke_Amazon1">
+        <classes>
+            <class name="test_Script.amazon_printlinks"/>
+
+        </classes>
+    </test>
+    <test name="Smoke_Flipkart1">
+        <classes>
+            <class name="test_Script.print_All_Links"/>
+
+        </classes>
+    </test>
+    <test name="Smoke_Amazon2">
+        <classes>
+            <class name="test_Script.amazon_printlinks"/>
+
+        </classes>
+    </test>
+    <test name="Smoke_Flipkart2">
+        <classes>
+            <class name="test_Script.print_All_Links"/>
+
+        </classes>
+    </test>
+</suite>

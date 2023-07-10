@@ -1,0 +1,21 @@
+
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.0.0-M4</version>
+            <configuration>
+
+
+                <!-- This is For TestNG maven Run -->
+                <suiteXmlFiles>
+                    <!--         <suiteXmlFile>testNG.xml</suiteXmlFile> --> <!--This is For TestNG Run-->
+                    <suiteXmlFile>sample.xml</suiteXmlFile>  <!--This is For Rest Assured Run-->
+                </suiteXmlFiles>
+                <testFailureIgnore>true</testFailureIgnore>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>

@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Ford Application Testing" >
+    <parameter name="user" value="test@gmail.com"></parameter>
+    <parameter name="password" value="password001"></parameter>
+    <test name="Ford SignIn senario" >
+        <classes>
+            <class name="test_Script.ford_testing"/>
+        </classes>
+    </test>
+    <test name="Google page Testing" >
+        <classes>
+            <class name="test_Script.Google_TC001"/>
+        </classes>
+    </test>
+
+
+</suite>
